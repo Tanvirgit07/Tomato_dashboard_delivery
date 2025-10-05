@@ -14,6 +14,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { ViewOrderModal } from "@/components/modal/ViewOrderModal";
 
 // 🔹 API Response Types
 interface Product {
@@ -280,13 +281,8 @@ const MyDelivary: React.FC = () => {
 
                 {/* Actions */}
                 <div className="col-span-3 flex items-center justify-end gap-3">
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    className="border-blue-200 text-blue-600 hover:bg-blue-50 rounded-lg"
-                  >
-                    <View className="w-4 h-4" />
-                  </Button>
+                  
+           <ViewOrderModal />
 
                   <Button
                     variant="outline"
