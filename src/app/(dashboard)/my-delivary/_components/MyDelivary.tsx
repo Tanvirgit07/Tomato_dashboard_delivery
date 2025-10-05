@@ -282,7 +282,7 @@ const MyDelivary: React.FC = () => {
                 {/* Actions */}
                 <div className="col-span-3 flex items-center justify-end gap-3">
                   
-           <ViewOrderModal />
+           <ViewOrderModal singleorderId = {order._id}/>
 
                   <Button
                     variant="outline"
