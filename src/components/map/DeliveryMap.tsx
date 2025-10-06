@@ -48,6 +48,10 @@ const SimpleMap: React.FC<SimpleMapProps> = ({
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="&copy; OpenStreetMap contributors"
         />
+
+
+
+        
         <Marker position={position} icon={customIcon}>
           <Popup>{popupText}</Popup>
         </Marker>
